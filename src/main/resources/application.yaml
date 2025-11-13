@@ -4,3 +4,5 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost/googlebooks
+server:
+  port: 8081
