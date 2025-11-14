@@ -15,4 +15,32 @@ public class Book {
     private String link;
     private LocalDateTime date;
 
+    public String getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String[] getAuthors() {
+        return authors;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
 }
